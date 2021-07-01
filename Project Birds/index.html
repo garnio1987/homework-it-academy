@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/media.css">
+    <script src="https://kit.fontawesome.com/6d9e74e281.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-page">
+        <!-- Block Home -->
+        <section class="home main-page__home">
+            <header class="header-home home__header-home">
+                <div class="flex-wrap header-home__flex-wrap">
+                    <div class="title header-home__title">Birds Care</div>
+                    <nav class="nav header-home__nav">
+                        <a href="#" class="link nav__link">Home</a>
+                        <a href="#about" class="link nav__link">About</a>
+                        <a href="#service" class="link nav__link">Service</a>
+                        <a href="#gallery" class="link nav__link">Gallery</a>
+                        <a href="#team" class="link nav__link">Team</a>
+                        <a href="#contact" class="link nav__link">Contact</a>
+                    </nav>
+                    <button class="button header-home__button">Login</button>
+                </div>
+            </header>
+            <header class="hidden-menu home__hidden-menu">
+                <div class="flex-wrap hidden-menu__flex-wrap">
+                    <div class="title hidden-menu__title">Birds Care</div>
+                    <input type="checkbox" id="checkbox" class="hidden-menu__checkbox">
+                    <nav class="hidden-nav hidden-menu__hidden-nav">
+                        <ul class="hidden-nav__link-drop">
+                            <li class="hidden-nav__item"><a href="#" class="link hidden-nav__link">Home</a></li>
+                            <li class="hidden-nav__item"> <a href="#about" class="link hidden-nav__link">About</a></li>
+                            <li class="hidden-nav__item"><a href="#service" class="link hidden-nav__link">Service</a>
+                            </li>
+                            <li class="hidden-nav__item"> <a href="#gallery" class="link hidden-nav__link">Gallery</a>
+                            </li>
+                            <li class="hidden-nav__item"><a href="#team" class="link hidden-nav__link">Team</a></li>
+                            <li class="hidden-nav__item"> <a href="#contact" class="link hidden-nav__link">Contact</a>
+                            </li>
+                            <li class="hidden-nav__item"> <button class="button hidden-nav__button">Login</button></li>
+                        </ul>
+                    </nav>
+                    <label for="checkbox">
+                        <i class="hidden-nav__icon fas fa-bars fa-2x"></i>
+                    </label>
+                </div>
+            </header>
+            <div class="body-home home__body-home">
+                <div class="flex-wrap body-home__flex-wrap flex-wrap_column">
+                    <h2 class="heading body-home__heading">Birds paradise</h2>
+                    <h1 class="title body-home__title">Exotic and feathers birds</h1>
+                    <p class="desc body-home__desc">Lorem ipsum dolor sit amet</p>
+                    <button class="button body-home__button">Read More</button>
+                </div>
+            </div>
+            <footer class="footer-home home__footer-home">
+                <div class="flex-wrap footer-home__flex-wrap">
+                    <div class="link footer-home__link">Proffesional care</div>
+                    <div class="link footer-home__link">Popular Birds</div>
+                    <div class="link footer-home__link">New Arrivals</div>
+                </div>
+            </footer>
+        </section>
+        <!-- Block About -->
+        <section class="about main-page__about" id="about">
+            <div class="flex-wrap about__flex-wrap flex-wrap_column">
+                <header class="header-about about__header-about">
+                    <div class="flex-wrap header-about__flex-wrap">
+                        <div class="link header-about__link header-about__link_margin-right"> Exotic Pet</div>
+                        <div class="link header-about__link">Original Breed</div>
+                        <div class="link header-about__link">Trained Birds</div>
+                    </div>
+                </header>
+                <header class="hidden-header-about about__hidden-header-about">
+                    <select name="select-list" id="" class="hidden-header-about__select">
+                        <option value="exotic-pet" class="hidden-header-about__option">Exotic Pet</option>
+                        <option value="original-breed" class="hidden-header-about__option">Original Breed</option>
+                        <option value="trained-birds" class="hidden-header-about__option">Trained Birds</option>
+                    </select>
+                </header>
+                <div class="body-about about__body-about">
+                    <div class="flex-wrap body-about__flex-wrap">
+                        <div class="body-about__image"></div>
+                        <div class="body-about__content">
+                            <h2 class="heading body-about__heading">Things You Need For Your New Exotic Pet Bird!</h2>
+                            <p class="desc body-about__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptatum fugit recusandae porro eaque soluta officia sint, dolore doloribus velit
+                                voluptate, nisi quas maxime perferendis omnis temporibus quae? Quae, nihil fugit? Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="button body-about__button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block Video -->
+        <section class="video main-page__video">
+            <div class="flex-wrap video__flex-wrap">
+                <div class="video-info video__video-info">
+                    <h2 class="heading video-info__heading heading_uppercase">New arrivals birds here</h2>
+                    <p class="desc video-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Reprehenderit
+                        omnis eveniet earum voluptatibus iusto dignissimos.</p>
+                </div>
+                <div class="video-content video__video-content">
+                    <div class="container-icon video-content__container-icon">
+                        <div class="flex-wrap container-icon__flex-wrap">
+                            <i class="container-icon__icon fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block Services -->
+        <section class="services main-page__services" id="service">
+            <h1 class="title services__title">Our Services</h1>
+            <div class="flex-wrap services__flex-wrap">
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="fab fa-apple fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">Healthy food</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="fas fa-heartbeat fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">Medical care</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="far fa-gem fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">groom & clean</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="fas fa-history fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">24/7 Care</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="fas fa-utensils fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">Nutrition</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="fas fa-magic fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">Temperature</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="fab fa-pagelines fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">Perches</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-icon services__container-icon">
+                    <div class="flex-wrap container-icon__flex-wrap flex-wrap_column">
+                        <div class="icon container-icon__icon">
+                            <div class="services__icon">
+                                <div class="flex-wrap icon__flex-wrap">
+                                    <i class="far fa-eye fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="services__desc">Security</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block News -->
+        <section class="blog-news main-page__blog-news">
+            <h1 class="title blog-news__title">Blog And News</h1>
+            <div class="news blog-news__news">
+                <div class="flex-wrap news__flex-wrap">
+                    <div
+                        class="news-container news__news-container news__news-container_border-bottom news__news-container_border-right">
+                        <div class="flex-wrap news-container__flex-wrap">
+                            <div class="news-container__image"><img src="../Project birds/images/blog2.jpg" alt="">
+                            </div>
+                            <div class="news-container__content">
+                                <h2 class="heading news-container__heading">New Arrivals Birds Here</h2>
+                                <p class="news-container__date">April 16 2020</p>
+                                <p class="desc news-container__desc">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Distinctio nam, atque minima impedit ipsam laudantium itaque tenetur
+                                    inventore
+                                    pariatur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-container news__news-container news__news-container_border-bottom">
+                        <div class="flex-wrap news-container__flex-wrap">
+                            <div class="news-container__image"><img src="../Project birds/images/blog1.jpg" alt="">
+                            </div>
+                            <div class="news-container__content">
+                                <h2 class="heading news-container__heading">Original And Exotic Birds</h2>
+                                <p class="news-container__date">April 16 2020</p>
+                                <p class="desc news-container__desc">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Distinctio nam, atque minima impedit ipsam laudantium itaque tenetur
+                                    inventore
+                                    pariatur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-container news__news-container news__news-container_border-right">
+                        <div class="flex-wrap news-container__flex-wrap">
+                            <div class="news-container__image"><img src="../Project birds/images/blog3.jpg" alt="">
+                            </div>
+                            <div class="news-container__content">
+                                <h2 class="heading news-container__heading">Your New Exotic Pet Bird</h2>
+                                <p class="news-container__date">April 16 2020</p>
+                                <p class="desc news-container__desc">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Distinctio nam, atque minima impedit ipsam laudantium itaque tenetur
+                                    inventore
+                                    pariatur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-container news__news-container">
+                        <div class="flex-wrap news-container__flex-wrap">
+                            <div class="news-container__image"><img src="../Project birds/images/blog4.jpg" alt="">
+                            </div>
+                            <div class="news-container__content">
+                                <h2 class="heading news-container__heading">Trained Birds Available</h2>
+                                <p class="news-container__date">April 16 2020</p>
+                                <p class="desc news-container__desc">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Distinctio nam, atque minima impedit ipsam laudantium itaque tenetur
+                                    inventore
+                                    pariatur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block Trainers -->
+        <section class="trainers main-page__trainers" id="team">
+            <h1 class="title trainers__title">Our Trainers</h1>
+            <div class="trainers-container trainers__trainers-container">
+                <div class="flex-wrap trainers-container__flex-wrap">
+                    <div class="trainer-about trainers__trainer-about">
+                        <div class="flex-wrap trainer-about__flex-wrap">
+                            <img src="../Project birds/images/t1.jpg" alt="" class="trainer-about__image">
+                            <div class="trainer-about__desc trainer-about__desc_margin-left">
+                                <p class="trainer-about__name">Jexson Hammer</p>
+                                <p class="trainer-about__text">Trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-about trainers__trainer-about trainer-about_padding-left">
+                        <div class="flex-wrap trainer-about__flex-wrap">
+                            <img src="../Project birds/images/t3.jpg" alt="" class="trainer-about__image">
+                            <div class="trainer-about__desc trainer-about__desc_margin-left">
+                                <p class="trainer-about__name">Marshall Zeox</p>
+                                <p class="trainer-about__text">Trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-about trainers__trainer-about trainer-about_padding-right">
+                        <div class="flex-wrap trainer-about__flex-wrap trainer-about__flex-wrap-end">
+                            <div
+                                class="trainer-about__desc trainer-about__desc_margin-right trainer-about__desc_margin-top">
+                                <p class="trainer-about__name">Lilly Hammer</p>
+                                <p class="trainer-about__text">Trainer</p>
+                            </div>
+                            <img src="../Project birds/images/t2.jpg" alt="" class="trainer-about__image">
+                        </div>
+                    </div>
+                    <div class="trainer-about trainers__trainer-about">
+                        <div class="flex-wrap trainer-about__flex-wrap trainer-about__flex-wrap-end">
+                            <div
+                                class="trainer-about__desc trainer-about__desc_margin-right trainer-about__desc_margin-top">
+                                <p class="trainer-about__name">Rose Willson</p>
+                                <p class="trainer-about__text">Trainer</p>
+                            </div>
+                            <img src="../Project birds/images/t4.jpg" alt="" class="trainer-about__image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block Birds Gallery -->
+        <section class="gallery main-page__gallery" id="gallery">
+            <h1 class="title gallery__title">Birds Gallery</h1>
+            <div class="flex-wrap gallery__flex-wrap">
+                <div class="section-left gallery__section-left">
+                    <div class="flex-wrap section-left__flex-wrap flex-wrap_column">
+                        <div class="image section-left__image section-left__image_bg-two-birds"></div>
+                        <div class="section-left-bottom gallery__section-left-bottom">
+                            <div class="flex-wrap section-left-bottom__flex-wrap">
+                                <div
+                                    class="image section-left-bottom__image section-left-bottom__image_bg-trainer-zeox">
+                                </div>
+                                <div
+                                    class="image section-left-bottom__image section-left-bottom__image_bg-trained-bird">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right gallery__section-right">
+                    <div class="flex-wrap section-right__flex-wrap flex-wrap_column">
+                        <div
+                            class="image section-right__image section-right__image_bg-new-bird section-right__image_top">
+                        </div>
+                        <div
+                            class="image section-right__image section-right__image_bg-trainer-willson section-right__image_bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block Clients -->
+        <section class="clients main-page__clients">
+            <h1 class="title clients__title">Our Clients</h1>
+            <div class="clients__image"></div>
+            <p class="desc clients__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dolorum,
+                laudantium magnam reiciendis illo ullam rem optio accusantium earum et quisquam sequi!</p>
+            <p class="clients__trainer-name">Orcand Keen</p>
+            <p class="desc clients__text">Our Client</p>
+            <div class="flex-wrap clients__flex-wrap">
+                <div class="link clients__link"></div>
+                <div class="link clients__link"></div>
+                <div class="link clients__link"></div>
+            </div>
+        </section>
+        <!-- Block Info -->
+        <section class="info main-page__info">
+            <div class="flex-wrap info__flex-wrap">
+                <div class="info-image info__info-image"></div>
+                <div class="info-content info__info-content">
+                    <h2 class="heading info-content__heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vitae
+                        similique error perferendis.</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Block Subscribe -->
+        <section class="subscribe main-page__subscribe">
+            <h1 class="title subscribe__title">Subscribe Us</h1>
+            <form class="subscribe__form-input">
+                <div class="flex-wrap subscribe__flex-wrap">
+                    <input class="input subscribe__input" type="text" placeholder="First Name" name="name" required>
+                    <input class="input subscribe__input" type="email" placeholder="Email" name="email" required>
+                </div>
+                <button class="button subscribe__button">Subscribe</button>
+            </form>
+        </section>
+        <!-- Block Partners -->
+        <section class="partners maun-page__partners">
+            <h1 class="title partners__title">Our Partners</h1>
+            <div class="flex-wrap partners__flex-wrap">
+                <img class="partners__item" src="../Project birds/images/lo1.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo2.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo3.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo4.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo5.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo3.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo5.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo4.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo3.jpg" alt="">
+                <img class="partners__item" src="../Project birds/images/lo1.jpg" alt="">
+            </div>
+        </section>
+        <!-- Block map -->
+        <section class="map main-page__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7079.5690925895715!2d153.01590902237047!3d-27.475966188018987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a0862069ceb%3A0x7c0698339d7f87a6!2sThe%20Fox%20Hotel!5e0!3m2!1sru!2sby!4v1609324420470!5m2!1sru!2sby"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </section>
+        <!-- Block Contact -->
+        <section class="contact main-page__contact" id="contact">
+            <h1 class="title contact__title">Contact Us</h1>
+            <div class="flex-wrap contact__flex-wrap">
+                <div class="contact__info">
+                    <h2 class="heading contact__heading">Address</h2>
+                    <p class="desc contact__desc">Melbourne,Brisbane</p>
+                    <p class="desc contact__desc">QLD 4101, Australia</p>
+                </div>
+                <div class="contact__info">
+                    <h2 class="heading contact__heading">Phone</h2>
+                    <p class="desc contact__desc">+(000) 123 4565 32</p>
+                    <p class="desc contact__desc">+(010) 123 455 354</p>
+                </div>
+                <div class="contact__info">
+                    <h2 class="heading contact__heading">Email Us</h2>
+                    <a class="link contact__link" href="mailto:info@example1.com">info@example1.com</a>
+                    <a class="link contact__link" href="mailto:info@example2.com">info@example2.com</a>
+                </div>
+            </div>
+            <form action="" class="contact__form-input">
+                <div class="flex-wrap contact__flex-wrap">
+                    <input type="text" placeholder="First Name" class="input contact__input" name="first-name" required>
+                    <input type="text" placeholder="Last Name" class="input contact__input" name="last-name" required>
+                    <input type="text" placeholder="Phone" class="input contact__input" name="phone" required>
+                    <input type="email" placeholder="Email" class="input contact__input" name="email" required>
+                </div>
+                <textarea name="message" placeholder="Message.." id="" cols="30" rows="4"
+                    class="contact__input-message"></textarea>
+                <button class="button contact__button">Send</button>
+            </form>
+        </section>
+        <footer class="footer main-page__footer">
+            <div class="desc footer__desc"><i class="far fa-copyright"></i>2018 Birds Care. All Rights Reserved | Design
+                by
+                <a class="link footer__link" href="https://w3layouts.com/" target="_blank">W3Layouts</a>
+            </div>
+            <div class="flex-wrap footer__flex-wrap">
+                <a href="https://www.facebook.com/" target="_blank"><i class="footer__icon fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="footer__icon fab fa-twitter"></i></a>
+                <a href="https://ru-wikinews-org.livejournal.com/" target="_blank"><i class="footer__icon fas fa-rss"
+                        target="_blank"></i></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,808 @@
+@media (max-width: 1500px) {
+  .about,
+  .services,
+  .trainers,
+  .gallery__flex-wrap,
+  .clients,
+  .subscribe,
+  .contact,
+  .news {
+    width: 75%;
+  }
+  .partners__flex-wrap {
+    width: 82%;
+  }
+}
+
+@media (max-width: 1410px) {
+  .body-home {
+    padding: 0 50px 0 10%;
+  }
+  .home__body-home {
+    margin: 11% 0 9%;
+  }
+  .header-home__flex-wrap {
+    justify-content: space-between;
+  }
+  .body-home__heading {
+    font-size: 2.1rem;
+  }
+  .body-home__title {
+    font-size: 2.6rem;
+  }
+  .body-home__desc {
+    font-size: 1.3rem;
+  }
+  .partners__flex-wrap {
+    width: 90%;
+  }
+  .about {
+    width: 85%;
+  }
+  .services,
+  .news,
+  .trainers,
+  .gallery__flex-wrap,
+  .clients,
+  .subscribe,
+  .contact {
+    width: 80%;
+  }
+  .gallery__image_bg-trained-bird,
+  .gallery__image_bg-trainer-willson {
+    background-position: right;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about,
+  .services,
+  .gallery__flex-wrap,
+  .subscribe,
+  .gallery__flex-wrap,
+  .news,
+  .contact {
+    width: 90%;
+  }
+  .trainers {
+    width: 85%;
+  }
+  .video-content {
+    padding: 120px 0;
+  }
+  .video-info {
+    padding-top: 100px;
+  }
+  .info-content {
+    padding: 110px 20px;
+  }
+  .header-home {
+    padding-right: 40px;
+  }
+  .header-home__title {
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .body-home {
+    padding-left: 50px;
+  }
+  .home__body-home {
+    margin: 80px 0;
+  }
+  .about,
+  .services,
+  .gallery__flex-wrap,
+  .subscribe,
+  .partners__flex-wrap,
+  .gallery__flex-wrap {
+    width: 95%;
+  }
+  .about {
+    padding: 0 20px;
+  }
+  .body-about__desc {
+    margin: 20px 0;
+  }
+  .header-home__title {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav {
+    padding-left: 50px;
+  }
+  .header-home__title {
+    margin-right: 0px;
+  }
+  .news-container__flex-wrap {
+    flex-direction: column;
+  }
+  .news-container__heading {
+    margin-top: 15px;
+  }
+  .news-container__content,
+  .news-container__image {
+    margin-left: 15px;
+  }
+  .news-container__date {
+    margin: 10px 0 15px;
+  }
+  .section-left,
+  .section-right {
+    height: 550px;
+  }
+  .gallery__flex-wrap {
+    width: 90%;
+  }
+  .gallery__title {
+    margin-bottom: 50px;
+  }
+  .info-content {
+    padding: 90px 20px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .partners__flex-wrap {
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+  }
+  .partners__item {
+    margin: 10px;
+  }
+  .partners__title {
+    margin-bottom: 20px;
+  }
+  .gallery__flex-wrap {
+    width: 95%;
+  }
+  .section-left-bottom__image_bg-trainer-zeox {
+    background-position: right;
+  }
+  .info-content {
+    padding: 70px 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav {
+    padding-left: 30px;
+  }
+  .nav__link {
+    padding-right: 20px;
+    letter-spacing: 1px;
+  }
+  .header-home {
+    padding: 20px 30px 30px;
+  }
+  .nav {
+    width: 68%;
+  }
+  .header-home__title {
+    width: 22%;
+  }
+  .body-home,
+  .footer-home {
+    padding-left: 30px;
+  }
+  .home__body-home {
+    margin: 60px 0;
+  }
+  .trainer-about_padding-left {
+    padding-left: 0;
+  }
+  .trainer-about_padding-right {
+    padding-right: 0;
+  }
+  .gallery__flex-wrap {
+    flex-direction: column;
+  }
+  .section-left {
+    width: 100%;
+    height: 625px;
+  }
+  .section-right {
+    width: 100%;
+    height: 1070px;
+  }
+  .section-right__image_top {
+    height: 30%;
+  }
+  .gallery__section-left {
+    margin-bottom: 30px;
+  }
+  .section-right__image_bottom {
+    height: 67%;
+  }
+  .section-right__image_bg-trainer-willson {
+    background-position: top;
+  }
+  .gallery__flex-wrap {
+    width: 80%;
+  }
+  .video-content {
+    padding: 120px 0;
+  }
+  .video-info {
+    padding-top: 80px;
+  }
+  .info__flex-wrap {
+    flex-direction: column;
+  }
+  .info-image {
+    width: 100%;
+    height: 450px;
+    background-position: top;
+  }
+  .info-content {
+    width: 100%;
+    padding: 120px 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .nav__link {
+    padding-right: 10px;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  .nav {
+    padding-left: 20px;
+  }
+  .header-home__title {
+    width: 28%;
+  }
+  .nav {
+    width: 62%;
+  }
+  .footer-home__flex-wrap .footer-home__link:nth-child(3) {
+    margin-right: 0;
+  }
+  .home__body-home {
+    margin: 50px 0;
+  }
+  .body-home {
+    padding-right: 30px;
+  }
+  .body-about__flex-wrap {
+    flex-direction: column;
+  }
+  .body-about__content {
+    text-align: center;
+  }
+  .body-about__image {
+    padding: 5px;
+    width: 100%;
+    height: 250px;
+    background-position: top;
+  }
+  .body-about__heading {
+    text-align: center;
+  }
+  .body-about__content {
+    width: 100%;
+  }
+  .video__flex-wrap {
+    flex-direction: column;
+  }
+  .video-content {
+    width: 100%;
+  }
+  .video-info {
+    width: 100%;
+    padding: 80px 0 60px;
+  }
+  .services__container-icon {
+    width: 50%;
+  }
+  .news__flex-wrap {
+    flex-direction: column;
+  }
+  .news-container {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  .section-left__image_bg-two-birds {
+    background-position: top;
+  }
+  .trainer-about {
+    width: 100%;
+  }
+  .trainer-about__flex-wrap-end,
+  .trainer-about__flex-wrap {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .trainers {
+    width: 95%;
+    padding: 70px 0 50px;
+  }
+  .trainer-about__image {
+    width: 300px;
+    height: 300px;
+  }
+  .trainer-about__desc {
+    width: 200px;
+    height: 200px;
+  }
+  .trainer-about__name {
+    font-size: 1.8rem;
+    padding: 20px 15px 15px;
+    line-height: 2.2rem;
+  }
+  .trainer-about__text {
+    font-size: 1.2rem;
+  }
+  .trainer-about__desc_margin-left {
+    margin-left: -18px;
+  }
+  .gallery__flex-wrap {
+    width: 90%;
+  }
+  .info-image {
+    height: 400px;
+  }
+  .info-content {
+    padding: 100px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 16px;
+  }
+  .header-home {
+    display: none;
+  }
+  .hidden-menu {
+    display: block;
+    padding: 20px 30px 40px;
+  }
+  .hidden-menu__flex-wrap {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hidden-menu__title {
+    width: 190px;
+  }
+  .hidden-nav__icon {
+    color: white;
+  }
+  .hidden-nav__icon:hover {
+    cursor: pointer;
+    color: black;
+  }
+  .hidden-nav {
+    width: 100%;
+  }
+  .hidden-menu__hidden-nav {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+  }
+  .hidden-nav__link-drop {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .hidden-nav__link {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding-right: 20px;
+  }
+  .hidden-nav__item {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .hidden-nav__link:hover,
+  .hidden-nav__link:focus {
+    color: black;
+    cursor: pointer;
+  }
+  .hidden-menu__checkbox {
+    display: none;
+  }
+  .hidden-menu__checkbox:checked ~ .hidden-nav .hidden-nav__link-drop {
+    max-height: 400px;
+    padding: 15px 0;
+    transition: all 0.5s;
+  }
+  .header-about__link {
+    margin-right: 35px;
+  }
+  .video-content {
+    padding: 80px 0;
+  }
+  .video-info {
+    padding: 50px 20px 30px;
+  }
+  .trainer-about__name {
+    padding: 15px;
+  }
+  .section-left {
+    height: 1000px;
+  }
+  .section-left__image {
+    height: 27%;
+  }
+  .section-left-bottom {
+    height: 70%;
+  }
+  .section-left-bottom__flex-wrap {
+    flex-direction: column;
+  }
+  .section-left-bottom__image {
+    width: 100%;
+    height: 48%;
+  }
+  .section-right {
+    height: 900px;
+  }
+  .section-right__image_top {
+    height: 30%;
+  }
+  .section-right__image_bottom {
+    height: 67%;
+  }
+  .contact__flex-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__info {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+  }
+  .contact__heading {
+    font-size: 1.6rem;
+  }
+  .contact__desc {
+    font-size: 1.2rem;
+  }
+  .contact__link {
+    font-size: 1.2rem;
+  }
+  .contact__title {
+    margin-bottom: 30px;
+  }
+  .contact__flex-wrap .contact__input:first-child {
+    margin-top: 10px;
+  }
+  .input {
+    width: 100%;
+  }
+  .subscribe__input {
+    margin-bottom: 20px;
+  }
+  .subscribe__button {
+    margin-top: 20px;
+  }
+  .subscribe__flex-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .body-home__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  .footer-home {
+    padding: 0 30px;
+  }
+  .footer-home__link {
+    margin-right: 40px;
+  }
+  .info-image {
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hidden-nav {
+    background-color: #6a67ce;
+    width: 100%;
+  }
+  .hidden-nav__link {
+    padding: 12px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  .hidden-nav__item {
+    display: flex;
+    justify-content: center;
+  }
+  .hidden-menu__hidden-nav {
+    top: 80px;
+    left: 0;
+  }
+  .hidden-nav__button {
+    background-color: white;
+    color: #6a67ce;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  .hidden-menu {
+    padding-bottom: 20px;
+  }
+  .info-image {
+    height: 300px;
+  }
+  .info-content {
+    padding: 80px 20px;
+  }
+  .body-home__title {
+    font-size: 1.7rem;
+  }
+  .footer-home__flex-wrap {
+    flex-direction: column;
+  }
+  .footer-home__link {
+    padding-bottom: 5px;
+    margin: 15px 0 0;
+  }
+  .footer-home {
+    width: 230px;
+  }
+  .body-home__heading {
+    font-size: 1.8rem;
+  }
+  .header-about {
+    display: none;
+  }
+  .hidden-header-about {
+    display: block;
+  }
+  .about__hidden-header-about {
+    margin: 50px 0;
+  }
+  .hidden-header-about__select {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 1.3rem;
+    padding: 10px;
+    color: white;
+    background-color: #6a67ce;
+    outline: none;
+  }
+  .hidden-header-about__option {
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    padding-bottom: 20px;
+    outline: none;
+  }
+  .trainer-about__image {
+    width: 280px;
+    height: 280px;
+  }
+  .trainer-about__desc {
+    width: 190px;
+    height: 190px;
+  }
+  .section-left {
+    height: 800px;
+  }
+  .section-left__image {
+    height: 27%;
+  }
+  .section-right {
+    height: 700px;
+  }
+  .section-right__image_top {
+    height: 33%;
+  }
+  .section-right__image_bottom {
+    height: 63%;
+  }
+  .footer {
+    background-color: #6a67ce;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .footer__desc {
+    line-height: 1.5rem;
+  }
+  .footer__flex-wrap {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .body-home__title {
+    font-size: 1.4rem;
+  }
+  .body-home__heading {
+    font-size: 1.4rem;
+  }
+  .body-home__desc {
+    font-size: 1rem;
+  }
+  .body-home {
+    padding-left: 20px;
+  }
+  .footer-home {
+    padding-left: 20px;
+  }
+  .home {
+    padding-bottom: 50px;
+  }
+  .home__body-home {
+    margin: 30px 0;
+  }
+  .hidden-menu {
+    padding-left: 20px;
+  }
+  .body-home__button {
+    width: 150px;
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+  .body-about__image {
+    padding: 0;
+    height: 220px;
+    background-position: top;
+    background-size: cover;
+  }
+  .video-info__heading {
+    font-size: 1.6rem;
+  }
+  .trainer-about__image {
+    width: 240px;
+    height: 240px;
+  }
+  .trainer-about__desc {
+    width: 140px;
+    height: 140px;
+  }
+  .trainer-about__name {
+    font-size: 1.4rem;
+    padding: 0 0 5px;
+    line-height: 1.8rem;
+  }
+  .trainer-about__text {
+    font-size: 1rem;
+  }
+  .section-left {
+    height: 700px;
+  }
+  .section-left__image {
+    height: 27%;
+  }
+  .section-right {
+    height: 600px;
+  }
+  .section-right__image_top {
+    height: 33%;
+  }
+  .section-right__image_bottom {
+    height: 63%;
+  }
+  .info-image {
+    height: 250px;
+  }
+  .info-content {
+    padding: 50px 20px;
+  }
+  .info-content__heading {
+    line-height: 2.2rem;
+  }
+  .news-container__heading {
+    font-size: 1.4rem;
+  }
+  .body-about__heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .clients__desc {
+    text-align: justify;
+  }
+  .contact {
+    padding: 50px 10px;
+  }
+  .blog-news {
+    padding: 50px 0;
+  }
+  .trainers {
+    padding: 50px 0;
+  }
+  .trainers__title {
+    margin-bottom: 40px;
+  }
+  .gallery {
+    padding: 50px 0;
+  }
+  .services {
+    padding: 50px 0 40px;
+  }
+  .subscribe {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 2.3rem;
+  }
+  .hidden-menu__title {
+    font-size: 2rem;
+    margin-right: 0;
+  }
+  .partners__flex-wrap {
+    height: 250px;
+  }
+  .partners__item {
+    width: 100px;
+    height: 30px;
+  }
+  .partners {
+    padding: 40px 10px 30px;
+  }
+  .info-image {
+    height: 200px;
+  }
+  .trainer-about__flex-wrap {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .trainer-about__desc_margin-left {
+    margin-left: 0;
+    margin-top: -25px;
+  }
+  .trainer-about__desc_margin-right {
+    margin-right: 0;
+    margin-bottom: -25px;
+  }
+  .trainer-about__desc_margin-top {
+    margin-top: 0px;
+  }
+  .section-left {
+    height: 500px;
+  }
+  .section-left__image {
+    height: 27%;
+  }
+  .section-right {
+    height: 500px;
+  }
+  .section-right__image_top {
+    height: 33%;
+  }
+  .section-right__image_bottom {
+    height: 63%;
+  }
+  .gallery__section-left {
+    margin-bottom: 20px;
+  }
+  .body-home__title {
+    font-size: 1.4rem;
+  }
+  .services__flex-wrap {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-info {
+    padding: 30px 10px 20px;
+  }
+  .video-info__desc {
+    padding: 15px 5px 5px;
+  }
+  .video-info__heading {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .services__desc {
+    width: 200px;
+    text-align: center;
+  }
+  .info-content__heading {
+    font-size: 1.6rem;
+  }
+}
