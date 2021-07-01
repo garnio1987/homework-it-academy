@@ -1,0 +1,156 @@
+@media (max-width:1050px) {
+    .nav__wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90%;
+    }
+    .nav__link {
+        font-size: 1.5rem;
+        letter-spacing: 0.4rem;
+    }
+    .about__subtitle {
+        margin: 0.5rem 0 1rem 0;
+    }
+    .container:nth-child(3) {
+        height: 370px;
+    }
+    .container__career {
+        padding: 1rem 3rem;
+    }
+    .testimonial__wrapper {
+        width: 70%;
+    }
+    .career__wrapper {
+        margin-top: 0.5rem;
+    }
+    .career__desc_black, .career__desc_brown {
+        display: block;
+    }
+    .content__contact {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:800px) {
+    .container:nth-child(1), .container:nth-child(2), .container:nth-child(3), .container:nth-child(4), .container:nth-child(5), .container:nth-child(7), .container:nth-child(8) {
+        height: auto;
+    }
+    .container__content_home {
+        height: 400px;
+    }
+    .container__wrapper {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+    }
+    .nav__wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .container__content_bg-dark-cream {
+        height: 60%;
+    }
+    .nav {
+        height: 10%;
+    }
+    .intro__nav {
+        padding-bottom: 1rem;
+    }
+    .nav__link {
+        font-size: 1rem;
+        letter-spacing: 0rem;
+    }
+    .home {
+        height: 90%;
+    }
+    .content__intro {
+        padding-top: 2%;
+    }
+    .home__button {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .content__image_about, .content__image_contact {
+        width: 50%;
+        height: auto;
+    }
+    .career {
+        width: 100%;
+        height: auto;
+    }
+    .container__image_experience, .container__image_education {
+        width: 100%;
+        height: 300px;
+    }
+    .container__footer {
+        margin: 5%;
+    }
+}
+
+@media (max-width:512px) {
+    .nav__wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90%;
+    }
+    .container__content_home {
+        height: 200px;
+    }
+    .nav {
+        height: 40%;
+    }
+    .home {
+        height: 60%;
+    }
+    .nav__link {
+        font-size: 1.6rem;
+        letter-spacing: 0.5rem;
+    }
+    .content__wrapper {
+        flex-direction: column;
+    }
+    .image {
+        width: 100%;
+        height: 300px;
+    }
+    .skills {
+        width: 100%;
+    }
+    .feature {
+        width: 100%;
+        height: auto;
+    }
+    .container__career {
+        padding: 1rem;
+    }
+    .title, .career__desc {
+        text-align: center;
+    }
+    .container:nth-child(6) {
+        height: auto;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .container__testimonial {
+        padding: 5%;
+    }
+    .testimonial__title {
+        font-size: 2rem;
+    }
+    .contact {
+        width: 100%;
+    }
+    .form__button {
+        padding: 0.6rem 4rem;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer__icon {
+        width: 50%;
+    }
+}
